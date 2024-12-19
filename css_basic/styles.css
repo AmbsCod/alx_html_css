@@ -1,0 +1,27 @@
+/* Applying flexbox to the body and main container */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: 1; /* Expand to take full height */
+  }
+  
+  header, footer {
+    flex: 0 0 auto; /* Do not stretch */
+  }
+  
+  article {
+    flex: 2; /* Takes 2 parts of the width */
+    overflow-y: auto; /* Enables vertical scrolling */
+  }
+  
+  aside {
+    flex: 1; /* Takes 1 part of the width */
+    overflow-y: auto; /* Enables vertical scrolling */
+  }
+  
