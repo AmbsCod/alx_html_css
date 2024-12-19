@@ -24,4 +24,56 @@ body {
     flex: 1; /* Takes 1 part of the width */
     overflow-y: auto; /* Enables vertical scrolling */
   }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  article, aside {
+    padding: 20px;
+  }
+  
+  article {
+    background-color: #e8f5e9;
+    border-right: 1px solid #ddd;
+  }
+  
+  aside {
+    background-color: #fce4ec;
+  }
+  .logo {
+    font-size: 2rem; /* Adjust size */
+    margin-right: 10px;
+    color: #ff5722;
+  }
+  article {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #4caf50;
+  }
+  
+  article h1 {
+    color: #2e7d32;
+    text-align: center;
+  }
+  
+  article ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+      
   
